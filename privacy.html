@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Nemui Light</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><a href="./">Nemui Light</a></header>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective October 22, 2026</p>
+
+  <p>Nemui Light ("the app") copies your sleep data from Apple Health into a Google Sheet that you own. This policy explains what the app accesses and what it does with that data. In short, your data goes only from your iPhone to your own Google account. The developer never receives it.</p>
+
+  <h2>Data the app accesses</h2>
+  <ul>
+    <li><strong>Apple Health sleep data.</strong> The app has read-only access to Sleep Analysis samples: the start time, end time, sleep stage (for example Core, Deep, REM or Awake) and sample identifier. It reads up to the last 30 days. It doesn't read any other Health data or write to Apple Health.</li>
+    <li><strong>Your Google account email address</strong> (<code>openid</code> and <code>email</code> scopes). The app uses it only to show which account is connected.</li>
+    <li><strong>Spreadsheets created by the app</strong> (<code>drive.file</code> scope). The app can create a spreadsheet, list the spreadsheets it created, read their ID column to avoid adding duplicate rows, and add new rows. It can't see or change any other file in your Google Drive.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <p>The app uses this data only to add your sleep to the spreadsheet you choose and to show the export status in the app. It doesn't use your data for any other purpose.</p>
+
+  <h2>Where the data is stored</h2>
+  <ul>
+    <li><strong>On your iPhone:</strong> a Google sign-in token in the iOS Keychain, plus your email address, the chosen spreadsheet's name and ID, and a short log of recent exports (times and row counts) in the app's local settings.</li>
+    <li><strong>In your Google Drive:</strong> the spreadsheet with your sleep rows. It belongs to your Google account and is covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+  </ul>
+  <p>The developer runs no servers and doesn't collect, store or have access to any of this data. The app contains no analytics, advertising or tracking code.</p>
+
+  <h2>Sharing</h2>
+  <p>The app sends your data only to Google's APIs, so it can be written to your own spreadsheet. Your data isn't sold, shared with third parties, used for advertising, or used to train AI or machine learning models. The app doesn't store Health data in iCloud.</p>
+
+  <h2>Google API Services</h2>
+  <p>Nemui Light's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Your choices and deleting data</h2>
+  <ul>
+    <li>Tap <strong>Disconnect</strong> in the app to delete the Google token, email address and spreadsheet choice from your iPhone.</li>
+    <li>Remove access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Turn off Sleep access in <strong>Settings → Health → Data Access &amp; Devices → Nemui Light</strong>.</li>
+    <li>Deleting the app removes everything it stored on your iPhone. Your spreadsheet stays in your Google Drive until you delete it.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The app isn't directed at children under 13 and doesn't knowingly collect data from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email <a href="mailto:0neymik0@gmail.com">0neymik0@gmail.com</a>.</p>
+
+  <footer>
+    <a href="./">Home</a>
+    <a href="terms.html">Terms of Use</a>
+  </footer>
+</main>
+</body>
+</html>

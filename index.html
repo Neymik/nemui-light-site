@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nemui Light</title>
+  <meta name="description" content="Nemui Light sends your Apple Watch sleep to a Google Sheet automatically.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><a href="./">Nemui Light</a></header>
+
+  <h1>Your Apple Watch sleep, in a Google Sheet.</h1>
+  <p class="lead">Nemui Light is a small iPhone app that copies each night's sleep from Apple Health into a spreadsheet you own. It runs automatically, so you don't have to open it.</p>
+
+  <h2>How it works</h2>
+  <ol>
+    <li>Allow Nemui Light to read <strong>Sleep</strong> in Apple Health.</li>
+    <li>Connect your Google account and create a spreadsheet from the app.</li>
+    <li>When your Watch syncs a night to your iPhone, the app wakes in the background and adds the sleep stages as new rows.</li>
+  </ol>
+
+  <div class="table-wrap">
+    <table>
+      <tr><th>Start</th><th>End</th><th>Stage</th><th>Minutes</th><th>ID</th></tr>
+      <tr><td>2026-10-21 23:14</td><td>2026-10-21 23:40</td><td>Core</td><td>26</td><td>6F96…</td></tr>
+      <tr><td>2026-10-21 23:40</td><td>2026-10-22 00:05</td><td>Deep</td><td>25</td><td>A1C3…</td></tr>
+    </table>
+  </div>
+
+  <h2>What it can access</h2>
+  <ul>
+    <li><strong>Apple Health:</strong> sleep only, read-only. The app never writes to Health.</li>
+    <li><strong>Google:</strong> your email address, to show which account is connected, and only the spreadsheets Nemui Light creates. It can't see any other files in your Google Drive.</li>
+  </ul>
+  <p>The app has no servers, accounts, ads or analytics. Your data goes straight from your iPhone to your own Google Sheet. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="mailto:0neymik0@gmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
