@@ -19,7 +19,7 @@
   <ul>
     <li><strong>Apple Health sleep data.</strong> The app has read-only access to Sleep Analysis samples: the start time, end time, sleep stage (for example Core, Deep, REM or Awake) and sample identifier. It reads up to the last 30 days. It doesn't read any other Health data or write to Apple Health.</li>
     <li><strong>Your Google account email address</strong> (<code>openid</code> and <code>email</code> scopes). The app uses it only to show which account is connected.</li>
-    <li><strong>Spreadsheets created by the app</strong> (<code>drive.file</code> scope). The app can create a spreadsheet, list the spreadsheets it created, read their ID column to avoid adding duplicate rows, and add new rows. It can't see or change any other file in your Google Drive.</li>
+    <li><strong>Spreadsheets created by the app</strong> (<code>drive.file</code> scope). The app can create a spreadsheet, list the spreadsheets it created, read the sleep rows in them (to skip rows that are already there and to build a nightly summary), add new rows, and add and rewrite its Sleep Summary tab. It can't see or change any other file in your Google Drive.</li>
   </ul>
 
   <h2>How the data is used</h2>
